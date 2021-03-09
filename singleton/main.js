@@ -15,7 +15,7 @@ const Singleton = (function(){
 
     return {
         getProcessManager: () => {
-            if(!pManager){
+            if(!pManager){ 
                 pManager = createProcessManager();
             }
             return pManager;
